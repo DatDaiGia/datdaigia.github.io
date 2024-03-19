@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://cvi2.uni.lu/'>CVI2, SnT, University of Luxembourg</a>. Kirchberg, Luxembourg.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: myavar.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Luxembourg, Luxembourg</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
