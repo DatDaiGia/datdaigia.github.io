@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper, LAA-Net, has been accepted in CVPR 2024!
+My paper, LAA-Net, has been accepted in <a href="https://cvpr.thecvf.com/">CVPR 2024</a>!
