@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://cvi2.uni.lu/'>CVI2, SnT, University of Luxembourg</a>. Kirchberg, Luxembourg.
 
