@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - datdaigia
+  - 10ring
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - DatDaiGia/SINet-keras
+  - DatDaiGia/CB_Recommendation_GMM
+  - DatDaiGia/CB_NLP_Recommendations
+  - DatDaiGia/Sun-Hackathon-Underfit
+  # - 10ring/LAA-Net
