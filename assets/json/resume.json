@@ -6,7 +6,7 @@
     "email": "dat.nguyen@uni.lu",
     "phone": "",
     "url": "https://datdaigia.github.io/",
-    "summary": "A petite Dad, a long-term Learner.",
+    "summary": "A petite Dad, a long-time Learner.",
     "location": {
       "address": "5 Rue de L'Innovation",
       "postalCode": "L-4375",
@@ -49,6 +49,15 @@
       "endDate": "2022-07",
       "summary": "",
       "highlights": ["Traffic Sign/Light Detection", "Action Recognition"]
+    },
+    {
+      "name": "CVI2, SnT, University of Luxembourg",
+      "position": "Doctoral Researcher",
+      "url": "https://cvi2.uni.lu/",
+      "startDate": "2022-10",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["Deepfake Detection"]
     }
   ],
   "volunteer": [
