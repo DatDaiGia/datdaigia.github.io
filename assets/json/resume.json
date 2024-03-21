@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Dat NGUYEN",
+    "label": "Ph.D. student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dat.nguyen@uni.lu",
+    "phone": "",
+    "url": "https://datdaigia.github.io/",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -135,22 +135,45 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Programming Languages",
+      "level": "Proficient",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python, Ruby",
+        "Javascript, e.g. Jquery.",
+        "Html, Css"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "NginX"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "Proficient",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Pytorch, Tensorflow, Keras",
+        "Github, DVC",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Rails, Django"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Vietnamese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -162,15 +185,20 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Computer Vision",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Deepfake Detection",
+        "Autonomous Driving",
+        "Human-oriented Components, e.g. Pose Estimation, Action Recognition, ..."
+      ]
+    },
+    {
+      "name": "Recommendation Systems",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Content-based Algorithms",
+        "Distribution-related Problems"
       ]
     }
   ],
