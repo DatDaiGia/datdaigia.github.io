@@ -66,28 +66,31 @@ layout: default
 
     <!-- Skills -->
     <div class="cv">
-      <div class="card mt-3 p-3">
-        {% for data in site.data.resume %}
+      {% for data in site.data.resume %}
+        {% if data[0] == 'interests' or data[0] == 'skills' %}
+          <h2>
+            <a href="" style="color: inherit">{{ data[0] | capitalize }}</a>
+          </h2>
           {% case data[0] %}
-            {% when 'interests' %}
-              <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <div class="card mt-3 p-3">
               <div>
-                {% include resume/interests.liquid %}
+                {% when 'interests' %}
+                  {% include resume/interests.liquid %}
+                {% when 'skills' %}
+                  {% include resume/skills.liquid %}
+                {% else %}
+
               </div>
-             {% when 'skills' %}
-              <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-              <div>
-                {% include resume/skills.liquid %}
-              </div>
-            {% else %}
+            </div>
           {% endcase %}
-        {% endfor %}
-      </div>
+        {% endif %}
+      {% endfor %}
     </div>
 
     <!-- Social -->
     {% if page.social %}
       <div class="social">
+        <p>Find me on</p>
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
