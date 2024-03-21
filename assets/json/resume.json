@@ -57,7 +57,7 @@
       "startDate": "2020-01",
       "endDate": "2020-11",
       "summary": "",
-      "highlights": ["Remmendation Systems"]
+      "highlights": ["Recommendation Systems"]
     },
     {
       "name": "VinAI Research",
@@ -200,8 +200,16 @@
   ],
   "projects": [
     {
+      "name": "Violence Detection",
+      "summary": "Designing a model that receives a video as input and predicts probability of sign of violence action.",
+      "highlights": ["Action Recognition", "Pose Estimation"],
+      "startDate": "2022",
+      "endDate": "2022",
+      "url": ""
+    },
+    {
       "name": "Traffic Sign/Light Detection",
-      "summary": "One of the most challenging project I have worked on. ",
+      "summary": "One of the most challenging project I have worked on. The detection model is required to be robust to objects with different conditions like weather, daytime, lighttime, extreme light, etc. It is also optimal in computation for deployment in AGX Driver or ARM64. The number of traffic signs and lights are around 300 classes.",
       "highlights": ["Object Detection", "ONNX", "Fine-grained Classification", "TensorRT, AGX Driver, ARM64"],
       "startDate": "2021",
       "endDate": "2021",
@@ -210,7 +218,7 @@
     {
       "name": "Liquor Recommendation",
       "summary": "This project I directly worked with our customer in Japan. My task is to develop a Recommendation Algorithm that recommend similar liquors based on the given taste coefficients. My algorithm finally show superior performance over the very well-known sake recommendation website (https://sakenowa.com/). I also published 2 prestigious papers with the project.",
-      "highlights": ["Content-based", "Distribution Issue", "Liquor Recommendation"],
+      "highlights": ["Content-based Recommendation", "Distribution Issues", "Liquor Recommendation"],
       "startDate": "2020",
       "endDate": "2020",
       "url": "https://sun-asterisk.ai/"
