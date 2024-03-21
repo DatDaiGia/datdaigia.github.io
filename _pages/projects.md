@@ -5,7 +5,7 @@ permalink: /projects/
 description: Below are some of projects I have worked on ...
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Computer Vision, Recommendation System, Web Development]
 horizontal: false
 ---
 
