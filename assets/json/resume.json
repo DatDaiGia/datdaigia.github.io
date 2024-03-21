@@ -300,14 +300,29 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Djmila AOUADA",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "https://cvi2.uni.lu/profile-djamila-aouada/"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Enjie GHORBEL",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "https://cvi2.uni.lu/profile-enjie-ghorbel/"
+    },
+    {
+      "name": "Professor Thanh Ha LE",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "https://uet.vnu.edu.vn/~ltha/CV.pdf"
+    },
+    {
+      "name": "Professor Minh Thanh TA",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "https://scholar.google.com.au/citations?user=_dREcUEAAAAJ&hl=en"
+    },
+    {
+      "name": "Dr Dzung NGUYEN",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "http://users.eecs.northwestern.edu/~dtn419/"
     }
   ],
   "projects": [
