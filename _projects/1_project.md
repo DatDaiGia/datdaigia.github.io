@@ -3,9 +3,9 @@ layout: page
 title: Violence Detection
 description: Designing a model that receives a video as input and predicts probability of sign of violence action.
 img: assets/img/violence.gif
-importance: 1
+importance: 2
 category: Computer Vision
-related_publications: true
+related_publications: false
 ---
 
 <div class="row">
