@@ -6,7 +6,7 @@ description:
 redirect: https://viblo.asia/p/recommendation-system-tu-con-so-0-den-hoan-chinh-co-gi-gDVK2640KLj
 tags: content-based recom-system
 categories: ML
-featured: false
+featured: true
 ---
 
 A redirect post to my homepage.
