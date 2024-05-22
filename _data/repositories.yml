@@ -4,7 +4,8 @@ github_users:
 
 github_repos:
   - DatDaiGia/SINet-keras
+  - 10ring/LAA-Net
   - DatDaiGia/CB_Recommendation_GMM
   - DatDaiGia/CB_NLP_Recommendations
   - DatDaiGia/Sun-Hackathon-Underfit
-  - 10ring/LAA-Net
+  - DatDaiGia/Movie-Lens-CB_CF_Recommendations
