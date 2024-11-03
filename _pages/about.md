@@ -6,7 +6,7 @@ subtitle: <a href='https://cvi2.uni.lu/'>CVI2, SnT, University of Luxembourg</a>
 
 profile:
   align: right
-  image: myavar.jpeg
+  image: myavar_1.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Kirchberg, Luxembourg</p>
