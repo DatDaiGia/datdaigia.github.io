@@ -291,38 +291,25 @@
       "name": "Programming Languages",
       "level": "Proficient",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Python, Ruby",
-        "Javascript, e.g. Jquery, ReactJS",
-        "Html, Css"
-      ]
+      "keywords": ["Python, Ruby", "Javascript, e.g. Jquery, ReactJS", "Html, Css"]
     },
     {
       "name": "Deployment",
       "level": "",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "NginX"
-      ]
+      "keywords": ["NginX"]
     },
     {
       "name": "Tools",
       "level": "Proficient",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Pytorch, Tensorflow, Keras",
-        "Github, DVC",
-        "Docker",
-        "Elasticsearch"
-      ]
+      "keywords": ["Pytorch, Tensorflow, Keras", "Github, DVC", "Docker", "Elasticsearch"]
     },
     {
       "name": "Frameworks",
       "level": "",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Rails, Django"
-      ]
+      "keywords": ["Rails, Django"]
     }
   ],
   "languages": [
@@ -350,10 +337,7 @@
     {
       "name": "Recommendation Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Content-based Algorithms",
-        "Distribution-related Problems"
-      ]
+      "keywords": ["Content-based Algorithms", "Distribution-related Problems"]
     }
   ],
   "references": [

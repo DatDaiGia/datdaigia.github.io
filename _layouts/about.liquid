@@ -74,14 +74,13 @@ layout: default
           {% case data[0] %}
             <div class="card mt-3 p-3">
               <div>
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% else %}
-
+            {% when 'interests' %}
+              {% include resume/interests.liquid %}
+            {% when 'skills' %}
+              {% include resume/skills.liquid %}
+            {% else %}
               </div>
-            </div>
+              </div>
           {% endcase %}
         {% endif %}
       {% endfor %}

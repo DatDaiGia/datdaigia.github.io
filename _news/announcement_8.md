@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper, FakeSTormer, has been accepted in <a href="https://iccv.thecvf.com/">ICCV2025</a> (A*)!
+My paper, FakeSTormer, has been accepted in <a href="https://iccv.thecvf.com/">ICCV2025</a> (A\*)!
