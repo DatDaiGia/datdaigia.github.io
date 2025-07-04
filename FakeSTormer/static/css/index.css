@@ -22,6 +22,12 @@ body {
     padding-top: 0;
     padding-bottom: 3rem;
   }
+
+  .hero-body-nopad {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 0rem 1.5rem;
+  }
   
   .teaser {
     font-family: 'Google Sans', sans-serif;
