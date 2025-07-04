@@ -288,7 +288,7 @@
   </div>
 </section>
 
-<section class="section" style="background-color:#f3f3f3">
+<section class="section" style="background-color: #f6fdff">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
@@ -350,10 +350,10 @@
       <div class="column is-full-width">
         <div class="column is-six-fifths">
           <p>
-            We propose FakeSTormer to address two key challenges: <i>(i) improving the generalizability of deepfake video detectors</i> while <i>(ii) being robustness to more high-quality deepfake videos</i>.
+            We propose FakeSTormer to address two key challenges: <i>(i) improving the generalizability of video-based deepfake detectors</i> while <i>(ii) being robustness to more high-quality deepfake videos</i>.
             To achieve this, we redefine deepfake video detection as a fine-grained detection task by proposing a multi-branch network that leverages synthesized data and incorporates specialized learning objectives specifically targeting both subtle spatial and temporal artifacts.
           </p>
-          <h2 class="title is-4"> Framework Overview </h2>
+          <h2 class="title is-4"> Method </h2>
           <!-- <p>
           To show the effectiveness of our approach, we proposed alternative transformer block variants for multimodal integration, including
           (a) Single Tower, (b) Gated Layer,and (c) Dual Projection. We find the Dual-Tower architecture achieves the best performance in both image generation and understanding tasks among them.
@@ -365,7 +365,7 @@
         <div class="content has-text-justified">
           <center>
             <td width="90%">
-              <img alt="Training Pipeline" id="teaser" src="./static/images/FakeSTormer_main.png" width="98%">
+              <img alt="Framework Overview" id="teaser" src="./static/images/FakeSTormer_main.png" width="98%">
             </td>
           </center>
           <div class="column is-six-fifths">
@@ -429,41 +429,45 @@
       </div>
     </div>
   </div>
-  <hr>
+  <!-- <hr> -->
 </section>
-<section class="section">
+<section class="section" style="background-color: rgba(226, 234, 252, 0.08)">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-six-fifths">
         <h2 class="title is-3">🖼️ Experiment Result</h2>
         <p>To assess the generalization capabilities of our method, we conduct evaluations using four challenging evaluation setups: 
-          <b>i) Cross-dataset:</b> validating on unseen datasets,<i>i.e.</i>, datasets other than the training dataset (FF++).
-          <b>ii) Generalization on heavily compressed data and unseen manipulations</b>.
-          <b>iii) Robustness to unseen perturbations</b>
+          <b>i) Generalization to unseen datasets,<i>i.e.</i>, datasets other than the training dataset (FF++);
+          <b>ii) Generalization on heavily compressed data</b>;
+          <b>iii) Generalization to unseen manipulations</b>;
+          <b>iv) Robustness to unseen perturbations</b>.
         </p>
-        <div class="content has-text-justified">
-          <div class="column is-six-fifths">
-            <h2 class="title is-3">Generalization to Unseen Datasets</h2>
-            <center><img src="./static/images/generalization_1.png" style="width: 60%; height: auto;"</center>
-            <br>
-            <center><img src="./static/images/generalization_2.png" style="width: 70%; height: 100%;"></center>
-          </div>
+      <!-- </div> -->
+      
+      <hr>
+      <div class="content has-text-justified">
+        <div class="column is-six-fifths">
+          <h2 class="title is-4">Generalization to Unseen Datasets</h2>
+          <center><img src="./static/images/generalization_1.png" style="width: 60%; height: auto; margin-bottom: 5px"</center>
+          <br>
+          <center><img src="./static/images/generalization_2.png" style="width: 70%; height: 100%;"></center>
         </div>
-        <hr>
+      </div>
+      <hr>
 
-        <div class="content has-text-justified">
-          <div class="column is-six-fifths">
-            <h2 class="title is-3"> Generalization on Heavily Compressed Data and Unseen Manipulations</h2>
-            <!-- <center><img src="./static/images/generalization_3.png" width="50% px"></center> -->
-            <div style="display: flex;">
-              <img src="./static/images/generalization_3.png" style="width: 39%; height: auto;">
-              <img src="./static/images/generalization_4.png" style="width: 50%; height: auto;">
-            </div>          
-          </div>
+      <div class="content has-text-justified">
+        <div class="column is-six-fifths">
+          <h2 class="title is-4"> Generalization on Heavily Compressed Data and Unseen Manipulations</h2>
+          <!-- <center><img src="./static/images/generalization_3.png" width="50% px"></center> -->
+          <div style="display: flex;">
+            <img src="./static/images/generalization_3.png" style="width: 39%; height: 100%; margin-right: 5px">
+            <img src="./static/images/generalization_4.png" style="width: 50%; height: auto;">
+          </div>          
         </div>
+      </div>
 <!--&ndash;&gt;-->
-        <hr>
+      <hr>
         <!-- <br><br>
         <div class="content has-text-justified">
           <div class="column is-six-fifths">
@@ -482,30 +486,30 @@
         <!-- <br><br> -->
 
 <!--        <br><br>-->
-        <div class="content has-text-justified">
-          <div class="column is-six-fifths">
-            <h2 class="title is-3">Robustness to Unseen Perturbations</h2>
-            <center><img src="./static/images/robustness.png" width="100% px"></center>
-          </div>
+      <div class="content has-text-justified">
+        <div class="column is-six-fifths">
+          <h2 class="title is-4">Robustness to Unseen Perturbations</h2>
+          <center><img src="./static/images/robustness.png" width="100% px"></center>
         </div>
-        <hr>
+      </div>
+      <hr>
 
-        <div class="content has-text-justified">
-          <div class="column is-six-fifths">
-            <h2 class="title is-3">Visualization of Saliency Maps</h2>
-            <center><img src="./static/images/saliency_maps.png" width="68% px"></center>
-          </div>
+      <div class="content has-text-justified">
+        <div class="column is-six-fifths">
+          <h2 class="title is-4">Visualization of Saliency Maps</h2>
+          <center><img src="./static/images/saliency_maps.png" width="68% px"></center>
         </div>
+      </div>
 
         <!-- <br> -->
         <!--          <h2 class="title is-3">🖼️ Qualitative Result: Multi-Turn Generation</h2>-->
         <!--          <center><img src="./static/images/xfusion_qual_4_conv_gen.jpg" width="90% px"></center>-->
-        <center><b>❗ Please refer to the main paper for detailed ablation experiments! ❗</b></center>
-      </div>
+      <center><b>❗ Please refer to the main paper for detailed ablation experiments! ❗</b></center>
+      <!-- </div> -->
     </div>
   </div>
 </section>
-<hr>
+<!-- <hr> -->
 
 
 <section class="section" id="BibTeX">
@@ -537,6 +541,9 @@
         </a>
         <a href="" style="margin-right: 30px;">
           <img src="./static/images/post_lux.png" style="height: 80px">
+        </a>
+        <a href="" style="margin-right: 30px;">
+          <img src="./static/images/meluxina_logo.png" style="height: 80px">
         </a>
       </div>
 
