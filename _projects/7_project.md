@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Collantotte
-description: The first project I joined as a Web Developer after my bachelor graduation. I am in charge of building the admin site in which the administrator of the website can manage the selling products with easy-to-use, reliable, UI.
+description: This was the first project I joined as a Web Developer after completing my bachelor’s degree. I was responsible for building the admin site, enabling website administrators to manage products through a reliable and user-friendly interface.
 img: assets/img/collantotte.png
 importance: 2
 category: Web Development

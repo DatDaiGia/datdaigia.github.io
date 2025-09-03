@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JAMJA
-description: For this project, I am in the back-end site in which I wrote the APIs to return for the front-end. My mostly focused task is to use Elasticsearch to build a multi-level search bar with diverse creteria such as locations, closest distance, most-viewed, brands...
+description: For this project, I worked on the back-end, developing APIs to serve the front-end. My main task was integrating Elasticsearch to build a multi-level search bar with diverse criteria such as location, proximity, popularity, and brand.
 img: assets/img/jamja.png
 importance: 3
 category: Web Development

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Face Recognition
-description: I developed a Face Recognition system that only require CPUs for training on a small-size training dataset, but can compete with state-of-the-art methods in term of accuracy and speed. Moreover, the system has online learning ability. We published 2 papers with the system.
+description: I developed a face recognition system that requires only CPUs for training on a small dataset, yet achieves accuracy and speed comparable to state-of-the-art methods. Moreover, the system supports online learning. This work has resulted in two publications.
 img: assets/img/face.png
 importance: 4
 category: Computer Vision

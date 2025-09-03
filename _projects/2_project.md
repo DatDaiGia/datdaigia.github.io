@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Traffic Sign/Light Detection
-description: One of the most challenging project I have worked on. The detection model is required to be robust to objects with different conditions like weather, daytime, lighttime, extreme light, etc. It is also mandatory to achieve optimal threshold in computation for deployment in AGX Driver or ARM64. The number of traffic signs and lights are around 300 classes.
+description: One of the most challenging projects I have worked on involved building a detection model that is robust to varying conditions such as weather, daytime, nighttime, and extreme lighting. The model also needed to be computationally optimal for deployment on AGX Driver or ARM64 platforms. In total, it had to handle around 300 classes of traffic signs and lights.
 img: assets/img/traffic.png
 importance: 2
 category: Computer Vision

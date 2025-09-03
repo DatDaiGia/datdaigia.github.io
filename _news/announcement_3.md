@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started my Ph.D at the CVI2, SnT, University of Luxembourg 🚀.
+I started my Ph.D at the CVI2, SnT, University of Luxembourg :airplane:🇱🇺🚀.

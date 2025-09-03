@@ -3,8 +3,9 @@ github_users:
   - 10ring
 
 github_repos:
-  - DatDaiGia/SINet-keras
   - 10ring/LAA-Net
+  - 10ring/FakeSTormer
+  - DatDaiGia/SINet-keras
   - DatDaiGia/CB_Recommendation_GMM
   - DatDaiGia/CB_NLP_Recommendations
   - DatDaiGia/Sun-Hackathon-Underfit

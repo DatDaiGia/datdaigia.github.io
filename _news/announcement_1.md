@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I moved to Japan.
+I moved to Japan :airplane::jp:.

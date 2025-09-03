@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Liquor Recommendation
-description: This project I directly worked with our customer in Japan. My task is to develop a Recommendation Algorithm that recommends similar liquors based on the given taste coefficients. My algorithm finally show superior performance over the very well-known sake recommendation website (https://sakenowa.com/). I also published 2 prestigious papers with the project.
+title: Liquors Recommendation
+description: In this project, I worked directly with a customer in Japan to develop a recommendation algorithm that suggests similar liquors based on taste coefficients. The algorithm ultimately outperformed a well-known sake recommendation website (https://sakenowa.com/). This work also resulted in two publications in prestigious venues.
 img: assets/img/liquor.png
 importance: 1
 category: Recommendation System

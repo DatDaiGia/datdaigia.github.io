@@ -28,9 +28,9 @@
       "position": "Intern",
       "url": "https://en.sun-asterisk.com/",
       "startDate": "2016-04",
-      "endDate": "2017-02",
+      "endDate": "2017-03",
       "summary": "",
-      "highlights": []
+      "highlights": ["Completed intensive training in Ruby on Rails, JavaScript, HTML, CSS, and contributed to internal projects under supervision"]
     },
     {
       "name": "Sun Asterisk",
@@ -39,16 +39,24 @@
       "startDate": "2017-03",
       "endDate": "2019-03",
       "summary": "",
-      "highlights": []
+      "highlights": ["Backend: Ruby on Rails, Python - Django, RESTful APIs", 
+        "Frontend: JavaScript - ReactJS, JQuery, HTML, CSS, Bootstrap",
+        "Database: Elasticsearch, MongoDB, MySQL, Firebase",
+        "Management Tools: Github, Jira, Trello", 
+        "Deployment: NginX",
+        "Project Management: Agile"]
     },
     {
       "name": "Sun Asterisk AI Research",
-      "position": "AI Research Engineer",
+      "position": "Technical Lead",
       "url": "https://sun-asterisk.ai/",
       "startDate": "2019-04",
       "endDate": "2019-12",
       "summary": "",
-      "highlights": ["Face Recognition", "Wrist Detection", "DNNs Optimization"]
+      "highlights": ["End-to-End Face Recognition, Facial Matting, Wrist Detection, and Deep Learning Model Optimization",
+        "Online Learning for ML System, Image Retrieval, Real-time Inference, Lightweight Segmentation",
+        "ElasticSearch, Django backend APIs, Deployment, NginX",
+        "Publication Venues: ICCSA (B), Computer Science (Q3)"]
     },
     {
       "name": "Sun Asterisk Japan",
@@ -57,16 +65,18 @@
       "startDate": "2020-01",
       "endDate": "2020-11",
       "summary": "",
-      "highlights": ["Recommendation Systems"]
+      "highlights": ["Liquors Recommendation: Distribution-Aware Content-Based Recommendation Systems, Data Crawling & Pre-processing", 
+        "Publication Venues: Applied Intelligence (ISI-Q1), ICCCI (B), JSTIC (Domestic)"]
     },
     {
       "name": "VinAI Research",
-      "position": "AI Research Engineer",
+      "position": "Technical Lead & Product Owner",
       "url": "https://vinai.io",
       "startDate": "2020-12",
       "endDate": "2022-07",
       "summary": "",
-      "highlights": ["Traffic Sign/Light Detection", "Action Recognition", "ONNX"]
+      "highlights": ["Traffic Sign/Light Detection: ~300 classes, AGX Drive, CV25 Ambarella, Day-Night time, Occlusion, Extreme Lighting Conditions, Tiny Objects, Imbalanced Data", 
+        "2D Pose Estimation & Action Recognition: Distribution-Aware Keypoint Estimation, COCO, Violence Detection, 3D Keypoints, Zero-shot Learning"]
     },
     {
       "name": "CVI2, SnT, University of Luxembourg",
@@ -75,21 +85,32 @@
       "startDate": "2022",
       "endDate": "",
       "summary": "",
-      "highlights": ["Deepfake Detection"]
+      "highlights": ["Robust and Generalizable Deepfake Detection", "Mentoring Master's Students", "Publication Venues: CVPR, ICCV"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
   "education": [
+    {
+      "institution": "Nguyen Hue High School for the Gifted",
+      "location": "Hanoi, VietNam",
+      "url": "https://en.wikipedia.org/wiki/Nguyen_Hue_High_School_for_the_Gifted",
+      "area": "Specialized Class in Programming",
+      "studyType": "High School",
+      "startDate": "2009",
+      "endDate": "2012",
+      "score": "",
+      "courses": []
+    },
     {
       "institution": "Military Technical Academy",
       "location": "Hanoi, VietNam",
@@ -98,7 +119,7 @@
       "studyType": "Bachelor",
       "startDate": "2012",
       "endDate": "2017",
-      "score": "",
+      "score": "Top 10%",
       "courses": []
     },
     {
@@ -109,7 +130,7 @@
       "studyType": "Master",
       "startDate": "2018",
       "endDate": "2021",
-      "score": "",
+      "score": "Top 5%",
       "courses": []
     },
     {
@@ -205,6 +226,13 @@
       "summary": ""
     },
     {
+      "name": "Fakeformer: Efficient vulnerability-driven transformers for generalisable deepfake detection",
+      "publisher": "arXiv preprint arXiv:2410.21964",
+      "releaseDate": "Oct 2024",
+      "url": "https://arxiv.org/abs/2410.21964",
+      "summary": ""
+    },
+    {
       "name": "Vulnerability-Aware Spatio-Temporal Learning for Generalizable Deepfake Video Detection",
       "publisher": "ICCV 2025",
       "releaseDate": "Oct 2025",
@@ -214,57 +242,84 @@
   ],
   "projects": [
     {
+      "name": "Deepfake Detection",
+      "summary": "In this project, I focused on developing advanced methods to detect high-quality and unseen deepfakes, including those not encountered during training. Our approaches not only demonstrated superior performance on multiple datasets compared to state-of-the-art methods but also showed greater robustness to unseen common perturbations (e.g., Gaussian noise). Notably, our models require minimal computational overhead, underscoring their practical usefulness. This work has resulted in three publications, including two accepted at top-tier conferences in Computer Vision.",
+      "highlights": ["Generalizable to Unseen Manipulations", 
+        "Robustness to Unseen Perturbations, e.g., Gaussian Noise, etc",
+        "Minimal Computational Overead", 
+        "Real-time Inference"],
+      "startDate": "2022",
+      "endDate": "",
+      "url": ""
+    },
+    {
       "name": "Violence Detection",
-      "summary": "Designing a model that receives a video as input and predicts probability of sign of violence action.",
-      "highlights": ["Action Recognition", "Pose Estimation"],
+      "summary": "Designing a model that receives a video as input and predicts the probability of violent actions.",
+      "highlights": ["Levergaging Object Keypoint Similarity (OKS) as a Trigger", 
+        // "Levergaging sequences of 2D Keypoints", 
+        "Spatio-Temporal Modelling",
+        "Zero-shot Learning"],
       "startDate": "2022",
       "endDate": "2022",
       "url": ""
     },
     {
       "name": "Traffic Sign/Light Detection",
-      "summary": "One of the most challenging project I have worked on. The detection model is required to be robust to objects with different conditions like weather, daytime, lighttime, extreme light, etc. It is also optimal in computation for deployment in AGX Driver or ARM64. The number of traffic signs and lights are around 300 classes.",
-      "highlights": ["Object Detection", "ONNX", "Fine-grained Classification", "TensorRT, AGX Driver, ARM64"],
+      "summary": "One of the most challenging projects I have worked on involved building a detection model that is robust to varying conditions such as weather, daytime, nighttime, and extreme lighting. The model also needed to be computationally optimal for deployment on AGX Driver or ARM64 platforms. In total, it had to handle around 300 classes of traffic signs and lights.",
+      "highlights": ["~300 Fine-grained Classes", 
+        "Day-Night time, Occlusion, Extreme Lighting Conditions, Tiny Objects, Imbalanced Data",
+        "ONNX, TensorRT, AGX Driver, ARM64"],
       "startDate": "2021",
       "endDate": "2021",
       "url": ""
     },
     {
-      "name": "Liquor Recommendation",
-      "summary": "This project I directly worked with our customer in Japan. My task is to develop a Recommendation Algorithm that recommend similar liquors based on the given taste coefficients. My algorithm finally show superior performance over the very well-known sake recommendation website (https://sakenowa.com/). I also published 2 prestigious papers with the project.",
-      "highlights": ["Content-based Recommendation", "Distribution Issues", "Liquor Recommendation"],
+      "name": "Liquors Recommendation",
+      "summary": "In this project, I worked directly with a customer in Japan to develop a recommendation algorithm that suggests similar liquors based on taste coefficients. The algorithm ultimately outperformed a well-known sake recommendation website (https://sakenowa.com/). This work also resulted in two publications in prestigious venues.",
+      "highlights": ["Distribution-Aware Content-Based Recommendation Systems", 
+        "Data Crawling & Pre-processing", 
+        "Improved Recommendation Results as compared to Sakenowa (https://sakenowa.com/)"],
       "startDate": "2020",
       "endDate": "2020",
       "url": "https://sun-asterisk.ai/"
     },
     {
       "name": "Face Recognition",
-      "summary": "We developed a Face Recognition system that only require CPUs for training on a small-size training dataset, but can compete with SOTA in term of accuracy and speed. Moreover, the system has online learning ability. We published 2 papers with the system.",
-      "highlights": ["Face Recognition", "Elasticsearch"],
+      "summary": "I developed a face recognition system that requires only CPUs for training on a small dataset, yet achieves accuracy and speed comparable to state-of-the-art methods. Moreover, the system supports online learning. This work has resulted in two publications.",
+      "highlights": ["Online Learning", 
+        "Image Retrieval with Elasticsearch", 
+        "Training: CPUs only and not require Large-scale Datasets", 
+        "Real-time Inference",
+        "Django backend APIs", 
+        "Deployment: NginX"],
       "startDate": "2019",
       "endDate": "2019",
       "url": "https://sun-asterisk.ai/"
     },
     {
       "name": "Insight Data Science",
-      "summary": "In this project, I focus on the front-end site, working in ReactJS to display the content returned from the back-end APIs.",
-      "highlights": ["Front-End", "ReactJS"],
+      "summary": "In this project, I focused on the front-end, using ReactJS to display content returned from back-end APIs.",
+      "highlights": ["Front-End", 
+        "ReactJS"],
       "startDate": "2018",
       "endDate": "2019",
       "url": "https://insightfellows.com/data-science"
     },
     {
       "name": "JAMJA",
-      "summary": "For this project, I am in the back-end site in which I wrote the APIs to return for the front-end. My mostly focused task is to use Elasticsearch to build a multi-level search bar with diverse creteria such as locations, closest distance, most-viewed, brands...",
-      "highlights": ["Back-end", "Python", "Elasticsearch"],
+      "summary": "For this project, I worked on the back-end, developing APIs to serve the front-end. My main task was integrating Elasticsearch to build a multi-level search bar with diverse criteria such as location, proximity, popularity, and brand.",
+      "highlights": ["Backend with Django", 
+        "Elasticsearch, MongoDB, Firebase"],
       "startDate": "2018",
       "endDate": "2019",
       "url": "https://jamja.vn/khuyen-mai"
     },
     {
       "name": "Collatotte",
-      "summary": "The first project I joined as a Web Developer after my bachelor graduation. I am in charge of building the admin site in which the administrator of the website can manage the selling products with easy-to-use, reliable, UI.",
-      "highlights": ["Ruby On Rails", "Web Developement"],
+      "summary": "This was the first project I joined as a Web Developer after completing my bachelor’s degree. I was responsible for building the admin site, enabling website administrators to manage products through a reliable and user-friendly interface.",
+      "highlights": ["Ruby On Rails", 
+        "JavaScript - ReactJS, JQuery, HTML, CSS, Bootstrap", 
+        "MySQL"],
       "startDate": "2017",
       "endDate": "2018",
       "url": "https://colantotte.co.jp/global/"
@@ -276,53 +331,53 @@
       "date": "2019",
       "issuer": "Adrian Rosebrock",
       "url": "",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-brain"
     },
     {
       "name": "Machine Learning",
       "date": "2019",
       "issuer": "Coursera - Andrew Ng",
       "url": "",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-brain"
     },
     {
       "name": "Agile Fundamental",
       "date": "2019",
       "issuer": "Agile",
       "url": "",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-list-check"
     },
     {
       "name": "Image Processing",
       "date": "2019",
       "issuer": "Adrian Rosebrock",
       "url": "",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-eye"
     }
   ],
   "skills": [
     {
       "name": "Programming Languages",
       "level": "Proficient",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-code",
       "keywords": ["Python, Ruby", "Javascript, e.g. Jquery, ReactJS", "Html, Css"]
     },
     {
       "name": "Deployment",
       "level": "",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-globe",
       "keywords": ["NginX"]
     },
     {
       "name": "Tools",
       "level": "Proficient",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-toolbox",
       "keywords": ["Pytorch, Tensorflow, Keras", "Github, DVC", "Docker", "Elasticsearch"]
     },
     {
       "name": "Frameworks",
       "level": "",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-cogs",
       "keywords": ["Rails, Django"]
     }
   ],
@@ -341,7 +396,7 @@
   "interests": [
     {
       "name": "Computer Vision",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-robot",
       "keywords": [
         "Deepfake Detection",
         "Autonomous Driving",
@@ -350,34 +405,34 @@
     },
     {
       "name": "Recommendation Systems",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-bullseye",
       "keywords": ["Content-based Algorithms", "Distribution-related Problems"]
     }
   ],
   "references": [
     {
       "name": "Professor Djmila AOUADA",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-envelope",
       "reference": "https://cvi2.uni.lu/profile-djamila-aouada/"
     },
-    {
-      "name": "Professor Enjie GHORBEL",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "https://cvi2.uni.lu/profile-enjie-ghorbel/"
-    },
+    // {
+    //   "name": "Professor Enjie GHORBEL",
+    //   "icon": "fa-solid fa-thumbtack",
+    //   "reference": "https://cvi2.uni.lu/profile-enjie-ghorbel/"
+    // },
     {
       "name": "Professor Thanh Ha LE",
-      "icon": "fa-solid fa-thumbtack",
+      "icon": "fa-solid fa-envelope",
       "reference": "https://uet.vnu.edu.vn/~ltha/CV.pdf"
     },
     {
       "name": "Professor Minh Thanh TA",
-      "icon": "fa-solid fa-thumbtack",
+      "icon": "fa-solid fa-envelope",
       "reference": "https://scholar.google.com.au/citations?user=_dREcUEAAAAJ&hl=en"
     },
     {
       "name": "Dr Dzung NGUYEN",
-      "icon": "fa-solid fa-thumbtack",
+      "icon": "fa-solid fa-envelope",
       "reference": "http://users.eecs.northwestern.edu/~dtn419/"
     }
   ]
