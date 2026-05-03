@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Dat NGUYEN",
-    "label": "Ph.D. student",
+    "label": "Ph.D.",
     "image": "assets/img/myavar.jpeg",
-    "email": "dat.nguyen@uni.lu",
+    "email": "vandat2912@gmail.com",
     "phone": "",
     "url": "https://datdaigia.github.io/",
     "summary": "A petite Dad, a long-time Learner.",
@@ -82,8 +82,8 @@
       "name": "CVI2, SnT, University of Luxembourg",
       "position": "Doctoral Researcher",
       "url": "https://cvi2.uni.lu/",
-      "startDate": "2022",
-      "endDate": "",
+      "startDate": "2022-10",
+      "endDate": "2026-03",
       "summary": "",
       "highlights": ["Robust and Generalizable Deepfake Detection", "Mentoring Master's Students", "Publication Venues: CVPR, ICCV"]
     }

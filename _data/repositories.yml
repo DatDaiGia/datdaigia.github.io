@@ -5,8 +5,9 @@ github_users:
 github_repos:
   - 10ring/LAA-Net
   - 10ring/FakeSTormer
+  - 10ring/FakeFormer
   - DatDaiGia/SINet-keras
   - DatDaiGia/CB_Recommendation_GMM
-  - DatDaiGia/CB_NLP_Recommendations
-  - DatDaiGia/Sun-Hackathon-Underfit
-  - DatDaiGia/Movie-Lens-CB_CF_Recommendations
+  # - DatDaiGia/CB_NLP_Recommendations
+  # - DatDaiGia/Sun-Hackathon-Underfit
+  # - DatDaiGia/Movie-Lens-CB_CF_Recommendations

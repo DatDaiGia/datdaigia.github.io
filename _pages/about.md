@@ -18,6 +18,8 @@ social: true # includes social icons at the bottom of the page
 
 Hi, welcome to my page :milky_way:!
 
-I am currently a Ph.D. student working on Deepfake Detection under the supervision of <a href="https://www.uni.lu/snt-en/people/djamila-aouada/">Prof. Djamila AOUADA.</a>. My research interests include Deepfake Detection, Autonomous Driving, and Recommendation Systems.
+I received my Ph.D. in Computer Science from the University of Luxembourg, where I worked on robust and generalizable deepfake detection under the supervision of <a href="https://daouada.github.io/">Prof. Djamila AOUADA</a>. My research interests include Robust Perception, Visual Forgery Detection, Autonomous Driving, and Recommendation Systems.
+
+Prior to my PhD, I worked as a Technical Lead and Product Owner at VinAI Research (acquired by Qualcomm AI Research), where I led perception projects for autonomous driving. I also have prior experience in applied ML and software engineering across Vietnam and Japan.
 
 Besides, I am also a petite Dad of my baby :orange:, a Freethinker :cloud:, a Sing-lover, and a Health enthusiast :running:.
