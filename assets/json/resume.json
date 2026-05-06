@@ -140,7 +140,7 @@
       "area": "Computer Science",
       "studyType": "Doctoral",
       "startDate": "2022",
-      "endDate": "",
+      "endDate": "2026",
       "score": "",
       "courses": []
     }
@@ -148,7 +148,7 @@
   "awards": [
     {
       "title": "Best Paper Award, LAA-Net",
-      "date": "Oct 2024",
+      "date": "2024-10",
       "awarder": "Faculty of Science, Technology, and Medicine - Uni.lu",
       "url": "",
       "summary": "LAA-Net received the best paper award at the DPCSCE PhD Research Day, an annual event for 2nd-year PhD students."
@@ -214,7 +214,7 @@
     {
       "name": "LAA-Net: Localized Artifact Attention Network for Quality-Agnostic and Genelizable Deepfake Detection",
       "publisher": "CVPR 2024",
-      "releaseDate": "Jun 2024",
+      "releaseDate": "2024-06",
       "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Nguyen_LAA-Net_Localized_Artifact_Attention_Network_for_Quality-Agnostic_and_Generalizable_Deepfake_CVPR_2024_paper.pdf",
       "summary": ""
     },
@@ -228,15 +228,22 @@
     {
       "name": "Fakeformer: Efficient vulnerability-driven transformers for generalisable deepfake detection",
       "publisher": "arXiv preprint arXiv:2410.21964",
-      "releaseDate": "Oct 2024",
+      "releaseDate": "2024-10",
       "url": "https://arxiv.org/abs/2410.21964",
       "summary": ""
     },
     {
       "name": "Vulnerability-Aware Spatio-Temporal Learning for Generalizable Deepfake Video Detection",
       "publisher": "ICCV 2025",
-      "releaseDate": "Oct 2025",
+      "releaseDate": "2025-10",
       "url": "https://arxiv.org/abs/2501.01184",
+      "summary": ""
+    },
+    {
+      "name": "LAA-X: Unified Localized Artifact Attention for Quality-Agnostic and Generalizable Face Forgery Detection",
+      "publisher": "arXiv preprint arXiv:2604.04086",
+      "releaseDate": "2026-03",
+      "url": "https://arxiv.org/pdf/2604.04086",
       "summary": ""
     }
   ],
@@ -249,7 +256,7 @@
         "Minimal Computational Overead", 
         "Real-time Inference"],
       "startDate": "2022",
-      "endDate": "",
+      "endDate": "2026",
       "url": ""
     },
     {
@@ -357,10 +364,10 @@
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Programming",
       "level": "Proficient",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python, Ruby", "Javascript, e.g. Jquery, ReactJS", "Html, Css"]
+      "keywords": ["Python, Ruby", "Javascript, e.g. Jquery, ReactJS", "SQL","Html, Css"]
     },
     {
       "name": "Deployment",
@@ -369,16 +376,16 @@
       "keywords": ["NginX"]
     },
     {
-      "name": "Tools",
+      "name": "Systems",
       "level": "Proficient",
       "icon": "fa-solid fa-toolbox",
-      "keywords": ["Pytorch, Tensorflow, Keras", "Github, DVC", "Docker", "Elasticsearch"]
+      "keywords": ["Github/Gitlab, DVC", "Docker", "Elasticsearch", "CUDA", "Linux", "HPC", "REST APIs"]
     },
     {
       "name": "Frameworks",
       "level": "",
       "icon": "fa-solid fa-cogs",
-      "keywords": ["Rails, Django"]
+      "keywords": ["Rails, Django", "Pytorch, Tensorflow, Keras", "Scikit-learn, Scikit-image, OpenCV", "ONNX", "TensorBoard"]
     }
   ],
   "languages": [
@@ -398,15 +405,17 @@
       "name": "Computer Vision",
       "icon": "fa-solid fa-robot",
       "keywords": [
-        "Deepfake Detection",
+        "Visual Perception/Forgery Detection",
         "Autonomous Driving",
-        "Human-oriented Components, e.g. Pose Estimation, Action Recognition, Face Recognition"
+        "Human-centric AI, e.g. Pose Estimation, Action Recognition, Face Recognition",
+        "Object Detection",
+        "Spatio-Temporal Modeling"
       ]
     },
     {
       "name": "Recommendation Systems",
       "icon": "fa-solid fa-bullseye",
-      "keywords": ["Content-based Algorithms", "Distribution-related Problems"]
+      "keywords": ["Content-based Algorithms", "Distribution-aware Problems"]
     }
   ],
   "references": [
